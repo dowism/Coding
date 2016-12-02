@@ -1,0 +1,65 @@
+<!--
+Today you will be making an webpage that asks the user a few
+questions and then does something based on those responses
+first you need be able to run your code in a browser, so go to
+packages, settings view, install packages, and search for "run in browser"
+Install that package.
+Next you need to be able to run javascript in HTML.
+
+Make sure this file is saved .html then create the regular html structure
+using html *tab*
+javascript goes in the body, so use the <script></script> element.
+From here you will be using a couple different tools to interact with the
+user
+1. first lets use the simplest command, alert()
+
+try this in <script>
+alert("I have a few questions for you")
+
+alert might be useful sometimes because it pauses what is happening on the webpage.
+
+2. let's try to use the prompt() command. put this inside of <script>
+
+var name = prompt("What is your name");
+
+What does this do?
+
+2. now, using the variable name, have it print
+
+console.log("Welcome to my awesome website " + name)
+
+Where does this print?
+
+
+3. now let's try confirm(), try this line
+
+var sugarLoaf=confirm("Do you go to Sugar Loaf Academy?")
+
+save your document and run it in a broswer, then check the JS console.
+
+What happens if you click okay? what happens if you click cancel?
+
+4. I want you to create an if else statement based on peoples name and
+some other trait. You can see below what I have done. You want it to use
+the name but print different things if the person responds differently.
+
+5. for loops. before your next html hangman project
+  I want you to make a loop that checks if a letter that the user inputs matches
+  a letter of a word
+
+6. while loops. a while loop is something that will happen while something is true
+we can make our question a while loop that won't stop until you
+answer it a certain way. for example we could ask "do you love coding" and we
+could say while the answer to that is false or no, keep asking the question.
+let's try it below
+inside of <script></script> paste the following code
+
+sugarLoaf=null;
+while(sugarLoaf!="yes"){
+  var sugarLoaf=prompt("Do you love coding?")}
+
+save the doc and use control-option-Q to run the code
+
+
+
+-->
