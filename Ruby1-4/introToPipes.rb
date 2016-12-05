@@ -30,7 +30,7 @@ to be true. for example, to do math you need your brain and perseverance, you ca
 || means or, so to do math you need desmos or a graphing calculator, not both. Desmos || GraphingCalc.
 But, if you have neither, you are not ready let's check it out.
 =end
-
+=begin
 brain=true
 perseverance=false
 graphingCalc=true
@@ -53,6 +53,8 @@ else
   puts "You are not ready"
 end
 
+=end
+#make your own program that checks if you can ski, or videogame, or whatever.
 
 
 
