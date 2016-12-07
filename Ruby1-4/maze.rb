@@ -8,24 +8,15 @@ in this file you will be telling the user about their surroundings.
 4. if the person does not choose a direction correctly, warn them that they
   have not correctly chosen a direction.
 
+Things you will need
+if else end
+variables
+=
+puts
+gets.chomp
+#{}
+""
+print(if you want)
 
+upload to github!!! Also accept my request to be part of the SBA organization.
 =end
-
-
-
-
-puts "Holy giraffes! You fell into a maze!"
-print "Where to? (N, E, S, W): "
-direction = gets.chomp
-  puts "#{direction}, you say? A fine choice!"
-if direction == "N"
-  puts "You are in a maze of twisty little passages, all alike."
-elsif direction == "E"
-  puts "An elf! And his pet ham!"
-elsif direction == "S"
-  puts "A minotaur! Wait, no, that's just your reflection."
-elsif direction == "W"
-  puts "You're here, wherever here is."
-else
-  puts "Wait, is that even a direction?"
-end
