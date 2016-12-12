@@ -16,6 +16,8 @@ here are your logical operators
 && and
 || or
 ! not
+== is equal to
+!= does not equal
 5<6?
 
 "a"<"b"?
