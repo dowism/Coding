@@ -14,8 +14,7 @@ diner_menu=Hash.new
 diner_menu["breakfast"]=["Green eggs and ham", "toast butter side down"]
 diner_menu["drinks"]= ["water","coffee","orange juice"]
 
-now make your own menu below, please use the diner_menu variable name
-
+now make your own menu below, please use the diner_menu variable name and have at least three categories.
 
 =end
 
