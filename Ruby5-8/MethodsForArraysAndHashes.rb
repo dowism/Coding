@@ -15,10 +15,9 @@ let's see how these work
 #first, an array
 menu = ["Green Monster Smoothie","Blueberry muffins","Chai Latte","Bagel and Cream Cheese"]
 
-#what firstItem be? what will menu be after this command?
 #answer these two questions for each of the following chunks of code
 #1. What is the variable set to?
-#2. What is now in menu?
+#2. How did menu change?
 item1=menu.first
 item2=menu.last
 item3=menu.shift
@@ -30,7 +29,7 @@ item8=menu.empty?
 
 #add two things to the menu using unshift and push
 
-#might as well learn on more thing about arrays, you can make a range into an array using ..
+#might as well learn one more thing about arrays, you can make a range into an array using ..
 
 #check these out
 a=(5..10).to_a
