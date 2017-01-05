@@ -1,6 +1,6 @@
 /*
 Last Version: LoopsThrough
-this version will make the locations of the students traveling a variable at the beginning
+this version will make the locations of the students travelling a variable at the beginning
 it will also switch all ranges onto the real sheet
 
 */
