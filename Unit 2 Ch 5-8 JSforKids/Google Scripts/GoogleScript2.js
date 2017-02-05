@@ -6,9 +6,11 @@ it will also switch all ranges onto the real sheet
 */
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
-  // Or DocumentApp or FormApp.
+  //create a menu
   ui.createMenu('Create Travel')
+  //add an item to the menu, link it to a function studentsTravelling
       .addItem('Make a Travel Syllabus', 'studentsTravelling')
+      //I don't really know what this does, but it seems necessary, it may be like an end statement?
       .addToUi();
 }
 
