@@ -1,0 +1,15 @@
+h1{
+  color: rgb(167, 192, 203);
+  background-color: rgb(125, 5, 156);
+}
+
+
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+    font:200%;
+      background-color: rgb(125, 5, 156);
+}

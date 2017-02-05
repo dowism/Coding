@@ -1,10 +1,15 @@
-userclasses = Hash.new("No HW")
 
-while false
-puts "What classes do you have? Type done when done"
-  userinput = gets.chomp
 
-    #if statement that checks if the user typed in done
-    break
+class Rectangle
+  def initialize(a,b)
+    @length=a
+    @width=b
   end
-  userclasses[userinput]="No HW"
+  def area
+    puts @length*@width
+  end
+end
+
+seth=Rectangle.new(2,4)
+puts seth.class
+seth.area
